@@ -130,5 +130,5 @@ async def send_panel(ctx, channel: discord.TextChannel = None):
 
 
 # ضع توكن البوت الخاص بك هنا
-TOKEN = os.getenv("DISCORD_TOKEN")
-bot.run(TOKEN)
+
+bot.run("MTUyNDIwMzk4NTgyMzU5Njc3NQ.GLlNtY.87QqDSykGCknxg6PEU0TrTuw82Vawx1-Xvtjkw")
