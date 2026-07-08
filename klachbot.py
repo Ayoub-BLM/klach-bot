@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 from discord.ui import Button, View
 from flask import Flask
@@ -129,4 +130,5 @@ async def send_panel(ctx, channel: discord.TextChannel = None):
 
 
 # ضع توكن البوت الخاص بك هنا
-bot.run("MTUyNDIwMzk4NTgyMzU5Njc3NQ.GMCQPW.d1brJsE4MfDaRaZTnnFsyHzDhwVmBo74ftW1Bs")
+TOKEN = os.getenv("DISCORD_TOKEN")
+bot.run(TOKEN)
